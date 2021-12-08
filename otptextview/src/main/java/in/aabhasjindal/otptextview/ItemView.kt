@@ -85,7 +85,7 @@ class ItemView : FrameLayout {
         textView?.gravity = Gravity.CENTER
         if (otpTextTypeFace != null) {
             try {
-                val tf = ResourcesCompat.getFont(context, R.font.yekan)
+                val tf = Typeface.createFromAsset(context.assets, otpTextTypeFace)
                 textView?.typeface = tf
             } catch (e: Exception) {
                 e.printStackTrace()
