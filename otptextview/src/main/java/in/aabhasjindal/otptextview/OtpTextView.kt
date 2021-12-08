@@ -16,7 +16,7 @@ import java.util.regex.Pattern
 
 class OtpTextView : FrameLayout {
 
-    private var itemViews: MutableList<ItemView>? = null
+    var itemViews: MutableList<ItemView>? = null
     private var otpChildEditText: OTPChildEditText? = null
     var otpListener: OTPListener? = null
 
