@@ -14,7 +14,7 @@ import androidx.core.content.res.ResourcesCompat
 
 class ItemView : FrameLayout {
 
-    private var textView: TextView? = null
+    var textView: TextView? = null
     private var view: View? = null
     private var barActiveColor: Int = 0
     private var barInactiveColor: Int = 0
